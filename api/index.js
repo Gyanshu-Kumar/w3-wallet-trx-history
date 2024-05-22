@@ -23,7 +23,7 @@ app.get("/api/txs", async (req, res) => {
 });
 
 Moralis.start({
-  apiKey: "YOUR_API_KEY_HERE",
+  apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6IjdiYTM3OTQ1LWI3NWItNDQ1Mi05ZGVkLTEyMWIwOWFiODJlOCIsIm9yZ0lkIjoiMzkzMjc4IiwidXNlcklkIjoiNDA0MTA5IiwidHlwZUlkIjoiODMyY2RlOGEtZTIxYS00ZGM0LTg3ZjQtOWY1YWQ4OWQ3YmU2IiwidHlwZSI6IlBST0pFQ1QiLCJpYXQiOjE3MTYzNzI4OTYsImV4cCI6NDg3MjEzMjg5Nn0.DO8fCYyRBv5lQmTMlYfuLribIMmECmZWDucazIWYUuk",
 }).then(() => {
   console.log(`Moralis started`);
 });
